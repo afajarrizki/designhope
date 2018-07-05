@@ -1,0 +1,226 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: url(images/head-bg.gif) repeat-x;
+	font-family: arial, helvetica, sans-serif;
+	color: #666;
+}
+
+.container{
+	width: 950px;
+	margin: auto;
+}
+
+
+/*HEADER*/
+header{
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+header .headerleft{
+	width: 200px;
+	float: left;
+	margin: 25px 0 0 10px;
+}
+
+header .headerleft img{
+}
+
+header .headerright{
+	width: 575px;
+	float: right;
+}
+
+header .headerright ul{
+	list-style: none;
+}
+
+header .headerright ul li{
+	float: left;
+}
+
+header .headerright ul li a{
+	line-height: 120px;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+	display: block;
+}
+
+header .headerright ul li a:hover{
+	background: #F2191A;
+}
+
+/*SLIDER*/
+
+
+/*PRODUCT*/
+
+.product{
+	overflow: hidden;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.product .product1{
+	float: left;
+	width: 310px;
+	margin-right: 10px;
+}
+
+.product .product2{
+	float: right;
+	width: 310px;
+}
+
+.product .producttitle{
+	background: #F2191A;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.product .producttitle h1{
+	font-size: 25px;
+}
+
+
+/*BANNER*/
+.banner{
+	margin: 30px 0px;
+}
+
+
+/*ARTICLE*/
+article{
+	overflow: hidden;
+}
+
+article h2{
+	margin-bottom: 10px;
+}
+
+/*ARTICLE LEFT*/
+article .articleleft{
+	width: 450px;
+	float: left;
+}
+
+article .articleleft .lefttop{
+	overflow: hidden;
+}
+
+article .articleleft .lefttop ul{
+	width: 225px;
+	float: left;
+}
+
+article .articleleft .lefttop ul li{
+	list-style: inside;
+	list-style-image: url(images/marker2.png);
+	margin-bottom: 10px;
+}
+
+article .articleleft .lefttop ul li a{
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+	position: relative;
+	top: -3px;
+}
+
+article .articleleft .lefttop ul li a:hover{
+	text-decoration: underline;
+}
+
+/*ARTICLE RIGHT*/
+article .articleright{
+	width: 450px;
+	float: right;
+}
+
+article .articleright .program{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+article .articleright .program img{
+	float: left;
+	width: 52px;
+}
+
+article .articleright .program .programitem{
+	float: right;
+	width: 385px;
+}
+
+article .articleright .program .programitem a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #666666;
+	font-weight:bold;
+}
+
+article .articleright .program .programitem a:hover{
+	text-decoration: underline;
+}
+
+/*General CLasses*/
+
+p{
+	font-size: 13px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.read{
+	text-decoration: none;
+	background-color: #999;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.read:hover{
+	background-color: #474040;
+}
+
+footer{
+	overflow: hidden;
+}
+
+footer .footerleft{
+	float: left;
+	width: 200px;
+	margin: 10px 0 0 0;
+}
+
+footer .footerright{
+	float: right;
+	width: 575px;
+}
+
+footer .footerright ul{
+	list-style: none;
+	margin: 15px 0 0 0;
+}
+
+footer .footerright ul li{
+	float: left;
+}
+
+footer .footerright ul li a{
+	color: #F2191A;
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+}
+
+footer .footerright ul li a:hover{
+	text-decoration: underline;
+}
